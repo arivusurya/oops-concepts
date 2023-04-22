@@ -9,7 +9,7 @@ namespace oops_concepts{
             myfirstclass name = new myfirstclass();
             int value = name.add(10,30);
             Console.WriteLine(value);
-            Console.ReadKey();
+            
         }
     }
 }
