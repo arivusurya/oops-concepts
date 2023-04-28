@@ -5,5 +5,9 @@ namespace oops_concepts
        public ConstructorClass(){
             Console.WriteLine("Hello world!");
        }
+
+       public ConstructorClass(String name){
+            Console.WriteLine($"hello {name}");
+       }
     }
 }

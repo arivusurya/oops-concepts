@@ -7,6 +7,7 @@ namespace oops_concepts{
         public static void Main(string[] args)
         {
             ConstructorClass obj = new ConstructorClass();
+            ConstructorClass obj1 = new ConstructorClass("Ares");
             
             
         }
