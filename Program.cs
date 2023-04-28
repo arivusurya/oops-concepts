@@ -8,6 +8,7 @@ namespace oops_concepts{
         {
             ConstructorClass obj = new ConstructorClass();
             ConstructorClass obj1 = new ConstructorClass("Ares");
+            obj1.Saygreetings();
             
             
         }

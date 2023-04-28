@@ -1,6 +1,6 @@
 namespace oops_concepts
 {
-    public class ConstructorClass
+    public class ConstructorClass:interfaceTypes
     {
        public ConstructorClass(){
             Console.WriteLine("Hello world!");
@@ -8,6 +8,10 @@ namespace oops_concepts
 
        public ConstructorClass(String name){
             Console.WriteLine($"hello {name}");
+       }
+
+       public void Saygreetings(){
+        Console.WriteLine($"Hello world!");
        }
     }
 }
